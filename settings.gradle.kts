@@ -10,6 +10,14 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://jitpack.io")
+            isAllowInsecureProtocol = true
+        }
+        maven {
+            url = uri("https://maven.google.com")
+            isAllowInsecureProtocol = true
+        }
     }
 }
 

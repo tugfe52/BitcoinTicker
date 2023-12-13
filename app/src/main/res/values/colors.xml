@@ -2,4 +2,17 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="orange">#F4A01B</color>
+    <color name="gold_color">#FFD700</color>
+    <color name="main_blue_color">#0063F5</color>
+    <color name="light_blue_color">#0063F5</color>
+    <color name="alert_black_color">#9A9A9B</color>
+    <color name="alert_orange_color">#FCAF17</color>
+    <color name="input_hint_color">#90A5B4</color>
+    <color name="page_bg_color">#F8F9FA</color>
+    <color name="txt_bitcoin_name">#212529</color>
+    <color name="txt_bitcoin_shortly">#6C757D</color>
+    <color name="light_gray">#AAAAAA</color>
+    <color name="decrease_red">#D32F2F</color>
+    <color name="increase_green">#388E3C</color>
 </resources>
