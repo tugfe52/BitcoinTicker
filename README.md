@@ -3,7 +3,9 @@
 
 ## A Simple Cryptocurrency Price Tracker App
 
-### 📍Kotlin Language Based on Clean + MVVM Structure
+<br>
+
+# 📍Kotlin Language Based on Clean + MVVM Structure
 
 - Kotlin Version : 1.8.0
 - Min SDK Version : 29 (Android 10.0)
@@ -21,12 +23,6 @@
 |Navigation	 |2.5.3			|
 |Lottie	 |3.4.0		|
 |Glide	 |4.13.1		|
-
-#### For Unit Test and UI Test
-
-|Library Name    |Version Number            |
-|----------------|--------------------------|
-|JUnit		 	 |4.13.2                      |
 
 ## 📍Gradle Dependencies
 
