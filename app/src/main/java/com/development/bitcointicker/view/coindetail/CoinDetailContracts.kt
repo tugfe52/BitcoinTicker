@@ -4,7 +4,6 @@ import com.development.bitcointicker.model.response.bitcoindetail.BitcoinDetailR
 import com.development.bitcointicker.model.response.favorite.FavoriteModel
 import com.development.bitcointicker.utils.resource.Resource
 import com.google.android.gms.tasks.Task
-import com.google.firebase.firestore.DocumentSnapshot
 import kotlinx.coroutines.flow.SharedFlow
 
 sealed class CoinDetailContracts {

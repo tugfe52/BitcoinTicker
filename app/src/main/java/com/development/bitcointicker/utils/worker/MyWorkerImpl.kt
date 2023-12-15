@@ -10,7 +10,6 @@ import com.development.bitcointicker.utils.constants.AppConstants
 import com.development.bitcointicker.utils.extensions.orZeroPoint
 import com.development.bitcointicker.utils.notification.NotificationImp
 import com.development.bitcointicker.utils.resource.Resource
-import com.development.bitcointicker.view.home.HomeVM
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 

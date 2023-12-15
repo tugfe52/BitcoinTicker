@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.development.bitcointicker.databinding.ItemTimerOptionsBinding
-import com.development.bitcointicker.model.response.bitcoinlist.BitcoinListResponse
 
 class RefreshTimerOptionsAdapter  : RecyclerView.Adapter<RefreshTimerOptionsAdapter.RefreshTimerViewHolder>() {
 

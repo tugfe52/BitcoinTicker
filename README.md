@@ -1,17 +1,17 @@
-# BitcoinTicker
+# 💰 BitcoinTicker
 <img align="left" width="150" height="150" src="https://github.com/tugfe52/BitcoinTicker/blob/development/app/src/main/res/drawable/app_logo.png">
 
 ## A Simple Cryptocurrency Price Tracker App
 
 <br><br><br>
 
-# 📍Kotlin Language Based on Clean + MVVM Structure
+# 🌊 Kotlin Language Based on Clean + MVVM Structure
 
 - Kotlin Version : 1.8.0
 - Min SDK Version : 29 (Android 10.0)
 - [API Link](https://www.coingecko.com/en/api)
 
-## 📍Important Libraries in BitcoinTicker App
+## 📄 Important Libraries in BitcoinTicker App
 
 |Library Name   |Version Number          |
 |---------------|------------------------|
@@ -24,7 +24,7 @@
 |Lottie	 |3.4.0		|
 |Glide	 |4.13.1		|
 
-## 📍Gradle Dependencies
+## 📎 Gradle Dependencies
 
 - MVVM with Clean Architecture
 - Hilt
@@ -38,32 +38,32 @@
 - FirebaseFirestore
 - FirebaseCrashlytics
 
-## 📍Screens
+## 📱 Screens
 -----------
 
-# Splash Screen
+# ✨ Splash Screen
 <img width="250" height="500" src="images/splash_screen.png">
 
-# Login Screen
+# ✨ Login Screen
 <img width="250" height="500" src="images/login_screen.png">
 
-# Register Screen
+# ✨ Register Screen
 <img width="250" height="500" src="images/register_screen.png">
 
-# Home Screen
+# ✨ Home Screen
 <img width="250" height="500" src="images/home_screen.png">
 
-# Coin Detail Screen
+# ✨ Coin Detail Screen
 <img width="250" height="500" src="images/coin_detail_screen.png">
 
-# Search Screen
+# ✨ Search Screen
 <img width="250" height="500" src="images/search_screen.png">
 
-# Favorite Screen
+# ✨ Favorite Screen
 <img width="250" height="500" src="images/favorite_screen.png">
 
 
-## 📍MVVM Architecture ,useful links and resources
+## 📣 MVVM Architecture ,useful links and resources
 
 [Android Architecture](https://github.com/googlesamples/android-architecture)
 

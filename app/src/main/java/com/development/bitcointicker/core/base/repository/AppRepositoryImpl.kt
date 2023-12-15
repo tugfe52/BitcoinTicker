@@ -94,8 +94,8 @@ class AppRepositoryImpl @Inject constructor(
         emit(Resource.Loading)
 
         getUUid().collect {
-            val reference = firebaseFirestore.collection(AppConstants.FavoriteCoins).document(it)
-                .collection(AppConstants.FavoriteCoinType).document(favoriteModel.coinId)
+            val reference = firebaseFirestore.collection(AppConstants.FAVORITE_COINS).document(it)
+                .collection(AppConstants.FAVORITE_COIN_TYPE).document(favoriteModel.coinId)
                 .set(favoriteModel)
             reference.await()
             emit(Resource.Success(reference))
@@ -108,9 +108,9 @@ class AppRepositoryImpl @Inject constructor(
         emit(Resource.Loading)
 
         getUUid().collect { userId ->
-            val documentReference = firebaseFirestore.collection(AppConstants.FavoriteCoins)
+            val documentReference = firebaseFirestore.collection(AppConstants.FAVORITE_COINS)
                 .document(userId)
-                .collection(AppConstants.FavoriteCoinType)
+                .collection(AppConstants.FAVORITE_COIN_TYPE)
                 .document(favoriteModel.coinId)
 
             try {
@@ -140,8 +140,8 @@ class AppRepositoryImpl @Inject constructor(
         emit(Resource.Loading)
 
         getUUid().collect {
-            val reference = firebaseFirestore.collection(AppConstants.FavoriteCoins).document(it)
-                .collection(AppConstants.FavoriteCoinType).document(favoriteModel.coinId)
+            val reference = firebaseFirestore.collection(AppConstants.FAVORITE_COINS).document(it)
+                .collection(AppConstants.FAVORITE_COIN_TYPE).document(favoriteModel.coinId)
                 .delete()
 
             reference.await()
@@ -155,8 +155,8 @@ class AppRepositoryImpl @Inject constructor(
         emit(Resource.Loading)
 
         getUUid()?.collect {
-            val data = firebaseFirestore.collection(AppConstants.FavoriteCoins).document(it)
-                .collection(AppConstants.FavoriteCoinType).get().await()
+            val data = firebaseFirestore.collection(AppConstants.FAVORITE_COINS).document(it)
+                .collection(AppConstants.FAVORITE_COIN_TYPE).get().await()
             emit(Resource.Success(data.documents))
         }
     }.catch {

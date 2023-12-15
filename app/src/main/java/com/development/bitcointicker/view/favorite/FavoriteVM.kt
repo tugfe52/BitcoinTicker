@@ -3,7 +3,6 @@ package com.development.bitcointicker.view.favorite
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.development.bitcointicker.core.base.repository.AppRepositoryImpl
-import com.development.bitcointicker.model.response.bitcoindetail.BitcoinDetailResponse
 import com.development.bitcointicker.model.response.favorite.FavoriteModel
 import com.development.bitcointicker.utils.constants.AppConstants.FAVORITE_COIN_ID
 import com.development.bitcointicker.utils.constants.AppConstants.FAVORITE_COIN_IMAGE
@@ -13,7 +12,6 @@ import com.development.bitcointicker.utils.constants.AppConstants.FAVORITE_COIN_
 import com.development.bitcointicker.utils.extensions.orZeroPoint
 import com.development.bitcointicker.utils.resource.Resource
 import com.development.bitcointicker.view.coindetail.CoinDetailContracts
-import com.google.firebase.firestore.DocumentSnapshot
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
