@@ -37,7 +37,12 @@
 - FirebaseAuth
 - FirebaseFirestore
 - FirebaseCrashlytics
-## MVVM Architecture ,useful links and resources
+
+## 📍Screens
+-----------
+![SplashScreen](images/splash_screen.png "SplashScreen")
+
+## 📍MVVM Architecture ,useful links and resources
 
 [Android Architecture](https://github.com/googlesamples/android-architecture)
 
