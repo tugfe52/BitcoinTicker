@@ -40,9 +40,9 @@
 
 ## 📍Screens
 -----------
-![SplashScreen](images/splash_screen.png "Splash Screen" | width=300)
+<img align="left" width="150" height="100" src="images/splash_screen.png">
+<img align="left" width="150" height="100" src="images/login_screen.png">
 
-![LoginScreen](images/login_screen.png "Login Screen" | width=300)
 
 ## 📍MVVM Architecture ,useful links and resources
 
