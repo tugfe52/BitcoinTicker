@@ -60,7 +60,7 @@
 <img width="250" height="500" src="images/search_screen.png">
 
 # Favorite Screen
-<img width="250" height="500" src="images/favorite.png">
+<img width="250" height="500" src="images/favorite_screen.png">
 
 
 ## 📍MVVM Architecture ,useful links and resources
