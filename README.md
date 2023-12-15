@@ -1,9 +1,9 @@
 # BitcoinTicker
-<img align="left" width="100" height="100" src="https://github.com/tugfe52/BitcoinTicker/blob/development/app/src/main/res/drawable/app_logo.png">
+<img align="left" width="150" height="150" src="https://github.com/tugfe52/BitcoinTicker/blob/development/app/src/main/res/drawable/app_logo.png">
 
 ## A Simple Cryptocurrency Price Tracker App
 
-<br>
+<br><br>
 
 # 📍Kotlin Language Based on Clean + MVVM Structure
 
