@@ -3,7 +3,7 @@
 
 ## A Simple Cryptocurrency Price Tracker App
 
-<br><br>
+<br><br><br>
 
 # 📍Kotlin Language Based on Clean + MVVM Structure
 
