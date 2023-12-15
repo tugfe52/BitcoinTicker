@@ -1,9 +1,9 @@
 # BitcoinTicker
-A Simple Cryptocurrency Price Tracker App
-
 <img align="left" width="100" height="100" src="https://github.com/tugfe52/BitcoinTicker/blob/development/app/src/main/res/drawable/app_logo.png">
 
-## 📍Kotlin Language Based on Clean + MVVM Structure
+## A Simple Cryptocurrency Price Tracker App
+
+# 📍Kotlin Language Based on Clean + MVVM Structure
 
 - Kotlin Version : 1.8.0
 - Min SDK Version : 29 (Android 10.0)
