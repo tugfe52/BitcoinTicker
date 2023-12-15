@@ -40,8 +40,12 @@
 
 ## 📍Screens
 -----------
-<img width="100" height="300" src="images/splash_screen.png">
-<img width="100" height="300" src="images/login_screen.png">
+
+# Splash Screen
+<img width="150" height="300" src="images/splash_screen.png">
+
+# Login Screen
+<img width="150" height="300" src="images/login_screen.png">
 
 
 ## 📍MVVM Architecture ,useful links and resources
