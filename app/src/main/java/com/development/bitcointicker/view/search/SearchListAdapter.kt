@@ -11,7 +11,6 @@ import com.development.bitcointicker.databinding.ItemCoinsListBinding
 import com.development.bitcointicker.model.response.search.SearchCoinListResponse
 import com.development.bitcointicker.utils.extensions.setRateChangeColor
 import com.development.bitcointicker.utils.extensions.setRateImageDrawable
-import java.util.Locale
 
 class SearchListAdapter : RecyclerView.Adapter<SearchListAdapter.SearchListViewHolder>(), Filterable {
 

@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -95,6 +96,7 @@ abstract class BaseFragment<VB : ViewBinding>(private val inflate: Inflate<VB>) 
     }
 
     fun showError(throwable: Throwable) {
+        Log.e("ErrorMessage", throwable.message.orEmpty())
         CustomAlertDialog.showCustomAlertDialog(
             requireContext(),
             isCancelable = false,

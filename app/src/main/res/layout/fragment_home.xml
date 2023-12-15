@@ -24,15 +24,27 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <ImageView
+                android:id="@+id/iv_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:src="@drawable/ic_logout"
+                app:layout_constraintBottom_toBottomOf="@id/tv_home_welcome"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/tv_home_welcome" />
+
             <TextView
                 android:id="@+id/tv_home_welcome"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_8sdp"
                 android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_16sdp"
                 android:fontFamily="@font/poppins_medium"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14sdp"
+                app:layout_constraintEnd_toStartOf="@+id/iv_logout"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Merhaba Tuğfe," />

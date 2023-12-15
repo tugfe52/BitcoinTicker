@@ -13,17 +13,22 @@ import com.development.bitcointicker.utils.extensions.setRateImageDrawable
 class BitcoinListAdapter : RecyclerView.Adapter<BitcoinListAdapter.BitcoinListViewHolder>() {
 
     private var bitcoinItemList = arrayListOf<BitcoinListResponse>()
+    var coinClick: ((String) -> Unit) = { _ -> }
 
     inner class BitcoinListViewHolder(private val binding: ItemCoinsListBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(item: BitcoinListResponse) = with(binding) {
 
             Glide.with(itemView.context).load(item.image.orEmpty()).into(ivBitcoin)
-            tvBitcoinName.text = item.name
+            tvBitcoinName.text = "${item.name}"
             tvCurrentPrice.text = "$ " + String.format("%.3f", item.currentPrice)
             tvBitcoinRate.text = String.format("%.2f", item.priceChangePercentage24h) + "%"
             tvBitcoinRate.setRateChangeColor(item.priceChangePercentage24h.toString())
             imageCoinStatus.setRateImageDrawable(item.priceChangePercentage24h.toString(), itemView.context)
+
+            itemView.setOnClickListener {
+                coinClick(item.id.toString())
+            }
         }
     }
 

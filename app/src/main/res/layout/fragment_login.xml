@@ -92,17 +92,6 @@
             android:textColorHint="@color/input_hint_color" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <TextView
-        android:id="@+id/tv_forgot_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_12sdp"
-        android:fontFamily="@font/poppins_medium"
-        android:text="@string/forgot_password_text"
-        android:textSize="@dimen/_10sdp"
-        app:layout_constraintEnd_toEndOf="@id/tl_login_password"
-        app:layout_constraintTop_toBottomOf="@id/tl_login_password" />
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_login"
         android:layout_width="0dp"
@@ -118,7 +107,7 @@
         app:cornerRadius="16dp"
         app:layout_constraintEnd_toEndOf="@id/tl_login_password"
         app:layout_constraintStart_toStartOf="@id/tl_login_password"
-        app:layout_constraintTop_toBottomOf="@id/tv_forgot_password" />
+        app:layout_constraintTop_toBottomOf="@id/tl_login_password" />
 
     <TextView
         android:id="@+id/tv_login_register_navigate"

@@ -12,4 +12,12 @@
     <string name="save_text">Kayıt Ol</string>
     <string name="already_member_text">Hesabın var mı? Giriş Yap</string>
     <string name="home_description_text">Bugün ilk yatırımınızı yapın</string>
+    <string name="reload_time_title_text">Lütfen Yenileme Süresi Seçiniz</string>
+    <string name="text_choose">Seç</string>
+    <string name="reload_time_text">Yenileme Süresi</string>
+    <string name="add_favorite_success_text">Favorilere ekleme başarılı</string>
+    <string name="delete_favorite_success_text">Favorilerden kaldırma başarılı</string>
+    <string name="add_favorite_error_text">Favorilere ekleme başarısız</string>
+    <string name="delete_favorite_error_text">Favorilerden kaldırma başarısız</string>
+    <string name="favorites_text">Favorilerim</string>
 </resources>

@@ -309,7 +309,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/favorite/baseline_favorite_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/logout/baseline_logout_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -319,8 +319,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="6c757d" />
-                            <entry key="outputName" value="ic_favorite" />
+                            <entry key="color" value="ffffff" />
+                            <entry key="outputName" value="ic_logout" />
                             <entry key="sourceFile" value="$PROJECT_DIR$/../bitcoin_decrease.svg" />
                           </map>
                         </option>

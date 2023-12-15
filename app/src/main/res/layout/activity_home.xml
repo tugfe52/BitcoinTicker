@@ -21,7 +21,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:itemIconSize="@dimen/_20sdp"
-        android:background="@color/page_bg_color"
+        android:background="@color/white"
         app:itemTextColor="@drawable/bottom_view_selector"
         app:itemIconTint="@drawable/bottom_view_selector"
         app:labelVisibilityMode="selected"

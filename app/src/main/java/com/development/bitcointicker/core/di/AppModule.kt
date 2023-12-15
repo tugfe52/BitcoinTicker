@@ -26,16 +26,6 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object AppModule {
 
-    /*@Singleton
-    @Provides
-    fun provideSharedRepo(helper: PreferencesHelper) = AppCacheImp(helper)*/
-
-    /*@Singleton
-    @Provides
-    fun providePrefHelper(@ApplicationContext context: Context): PreferencesHelper {
-        return PreferencesHelper(context)
-    }*/
-
     private var interceptor = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
 
     private val client = OkHttpClient.Builder()
@@ -48,7 +38,8 @@ object AppModule {
     @Singleton
     @Provides
     fun provideRetrofitApI(): BitcoinAPI {
-        return Retrofit.Builder().baseUrl(AppConstants.BASE_URL).addConverterFactory(GsonConverterFactory.create(gson)).client(
+        return Retrofit.Builder().baseUrl(AppConstants.BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create(gson)).client(
             client
         ).build().create(BitcoinAPI::class.java)
     }
@@ -80,7 +71,6 @@ object AppModule {
     @Singleton
     @Provides
     fun provideFirebaseFirestore(): FirebaseFirestore = FirebaseFirestore.getInstance()
-
 
     @Singleton
     @Provides

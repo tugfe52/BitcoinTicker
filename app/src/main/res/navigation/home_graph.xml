@@ -9,7 +9,11 @@
         android:id="@+id/homeFragment"
         android:name="com.development.bitcointicker.view.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_coinDetailFragment"
+            app:destination="@id/coinDetailFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/favoriteFragment"
@@ -21,6 +25,16 @@
         android:name="com.development.bitcointicker.view.search.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/coinDetailFragment"
+        android:name="com.development.bitcointicker.view.coindetail.CoinDetailFragment"
+        android:label="fragment_coin_detail"
+        tools:layout="@layout/fragment_coin_detail" >
+
+        <argument
+            android:name="coinId"
+            app:argType="string"/>
+    </fragment>
 
 
 </navigation>
