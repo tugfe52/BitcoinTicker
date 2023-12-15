@@ -42,25 +42,25 @@
 -----------
 
 # Splash Screen
-<img width="200" height="350" src="images/splash_screen.png">
+<img width="200" height="500" src="images/splash_screen.png">
 
 # Login Screen
-<img width="200" height="350" src="images/login_screen.png">
+<img width="200" height="500" src="images/login_screen.png">
 
 # Register Screen
-<img width="200" height="350" src="images/register_screen.png">
+<img width="200" height="500" src="images/register_screen.png">
 
 # Home Screen
-<img width="200" height="350" src="images/home_screen.png">
+<img width="200" height="500" src="images/home_screen.png">
 
 # Coin Detail Screen
-<img width="200" height="350" src="images/coin_detail_screen.png">
+<img width="200" height="500" src="images/coin_detail_screen.png">
 
 # Search Screen
-<img width="200" height="350" src="images/search_screen.png">
+<img width="200" height="500" src="images/search_screen.png">
 
 # Favorite Screen
-<img width="200" height="350" src="images/favorite.png">
+<img width="200" height="500" src="images/favorite.png">
 
 
 ## 📍MVVM Architecture ,useful links and resources
